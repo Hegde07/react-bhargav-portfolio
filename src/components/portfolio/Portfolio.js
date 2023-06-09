@@ -1,11 +1,9 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+
 const Portfolio = () => {
 
 
@@ -14,45 +12,25 @@ const Portfolio = () => {
        {
         id:1,
         image:IMG1,
-        title: 'Line charts collection ✦ Hyper charts UI Kit',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21613577-Line-charts-collection-Hyper-charts-UI-Kit'
+        title: 'Admin Property Dashboard',
+        github:'https://github.com/Hegde07/react-dashboard-bhargav',
+        demo:'https://reliable-frangollo-6543e3.netlify.app'
        },
        {
         id:2,
         image:IMG2,
-        title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21590959-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+        title: 'React Portfoio Website',
+        github:'https://github.com/Hegde07/react-bhargav-portfolio',
+        demo:'https://netflix-clone-bhargav-1cf8e.web.app'
        },
        {
         id:3,
         image:IMG3,
-        title: 'NEW PRODUCT ✦ Hyper charts UI Kit',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21592191-NEW-PRODUCT-Hyper-charts-UI-Kit'
+        title: 'Netflix Clone ',
+        github:'https://github.com/Hegde07/netflix-clone-bhargav',
+        demo:'https://react-bhargav-portfolio.vercel.app/'
        },
-       {
-        id:4,
-        image:IMG4,
-        title: 'Orion UI kit – data visualization and charts templates for Figma',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21518922-Orion-UI-kit-data-visualization-and-charts-templates-for-Figma'
-       },
-       {
-        id:5,
-        image:IMG5,
-        title: 'data visualization in light and dark themes',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21401790-data-visualization-in-light-and-dark-themes'
-       },
-       {
-        id:6,
-        image:IMG6,
-        title: 'Set of widgets and components for data visualization',
-        github:'https://github.com',
-        demo:'https://dribbble.com/shots/21401707-Set-of-widgets-and-components-for-data-visualization'
-       }
+       
 
      ]
 
