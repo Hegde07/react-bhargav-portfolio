@@ -18,14 +18,14 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      image: IMG2,
+      image: IMG3,
       title: 'React Portfoio Website',
       github: 'https://github.com/Hegde07/react-bhargav-portfolio',
       demo: 'https://react-bhargav-portfolio.vercel.app/'
     },
     {
       id: 3,
-      image: IMG3,
+      image: IMG2,
       title: 'Netflix Clone ',
       github: 'https://github.com/Hegde07/netflix-clone-bhargav',
       demo: 'https://netflix-clone-bhargav-1cf8e.web.app'
