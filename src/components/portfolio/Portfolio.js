@@ -7,32 +7,32 @@ import IMG3 from '../../assets/portfolio3.png'
 const Portfolio = () => {
 
 
-     const data = [
+  const data = [
 
-       {
-        id:1,
-        image:IMG1,
-        title: 'Admin Property Dashboard',
-        github:'https://github.com/Hegde07/react-dashboard-bhargav',
-        demo:'https://reliable-frangollo-6543e3.netlify.app'
-       },
-       {
-        id:2,
-        image:IMG2,
-        title: 'React Portfoio Website',
-        github:'https://github.com/Hegde07/react-bhargav-portfolio',
-        demo:'https://netflix-clone-bhargav-1cf8e.web.app'
-       },
-       {
-        id:3,
-        image:IMG3,
-        title: 'Netflix Clone ',
-        github:'https://github.com/Hegde07/netflix-clone-bhargav',
-        demo:'https://react-bhargav-portfolio.vercel.app/'
-       },
-       
+    {
+      id: 1,
+      image: IMG1,
+      title: 'Admin Property Dashboard',
+      github: 'https://github.com/Hegde07/react-dashboard-bhargav',
+      demo: 'https://reliable-frangollo-6543e3.netlify.app'
+    },
+    {
+      id: 2,
+      image: IMG2,
+      title: 'React Portfoio Website',
+      github: 'https://github.com/Hegde07/react-bhargav-portfolio',
+      demo: 'https://react-bhargav-portfolio.vercel.app/'
+    },
+    {
+      id: 3,
+      image: IMG3,
+      title: 'Netflix Clone ',
+      github: 'https://github.com/Hegde07/netflix-clone-bhargav',
+      demo: 'https://netflix-clone-bhargav-1cf8e.web.app'
+    },
 
-     ]
+
+  ]
 
 
   return (
@@ -41,22 +41,22 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio_container'>
-       {
-        data.map(({id,image,title,github,demo})=>{
-          return(
-            <article key={id} className='portfolio_item'>
-         <div className='portfolio_item-image'>
-           <img src={image} alt={title}/>
-         </div>
-         <h3>{title}</h3>
-         <div className='portfolio_item-cta'>
-        <a href={github} className='btn'>Github</a>
-         <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
-        </div>
-       </article>
-          )
-        })
-       }
+        {
+          data.map(({ id, image, title, github, demo }) => {
+            return (
+              <article key={id} className='portfolio_item'>
+                <div className='portfolio_item-image'>
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className='portfolio_item-cta'>
+                  <a href={github} className='btn'>Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
     </section>
   )
